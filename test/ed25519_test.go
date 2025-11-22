@@ -1,4 +1,4 @@
-package crypto_test
+package cryptor_test
 
 import (
 	"crypto/ed25519"
