@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest an idea for this project
+labels: [enhancement]
+title: "feat: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your suggestion! Please fill in the details below.
+  - type: input
+    id: context
+    attributes:
+      label: Context
+      description: What problem are you trying to solve?
+      placeholder: Brief background
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Describe the solution you'd like.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
